@@ -467,14 +467,18 @@
     </footer>
     <div class="modal-overlay">
       <div class="modal">
-        <img src="" alt="close" />
+        <button class="close-button" href="">
+          <svg class="close-button-icon" width="24" height="18">
+            <use href="images\close.png"></use>
+          </svg>
+        </button>
         <p class="form-title">Leave your contacts and we will call you back</p>
         <form>
           <fieldset class="modal-form">
-            <label>
-              <p class="form-label">Name</p>
+            <label class="form-label">
+              <p>Name</p>
               <input
-                class=""
+                class="form-input"
                 type="text"
                 name="user_name"
                 required-id="user_name"
@@ -483,11 +487,11 @@
                 <use href="images\person-icon.png"></use>
               </svg>
             </label>
-            <label>
-              <p class="form-label">Phone</p>
+            <label class="form-label">
+              <p>Phone</p>
               <input
-                class=""
-                type="number"
+                class="form-input"
+                type="text"
                 name="user_phone"
                 required-id="user_phone"
               />
@@ -495,10 +499,10 @@
                 <use href="images\call-icon.png"></use>
               </svg>
             </label>
-            <label>
-              <p class="form-label">Email</p>
+            <label class="form-label">
+              <p>Email</p>
               <input
-                class=""
+                class="form-input"
                 type="email"
                 name="user_email"
                 required-id="user_email"
@@ -507,10 +511,10 @@
                 <use href="images\email-icon.png"></use>
               </svg>
             </label>
-            <label>
-              <p class="form-label">Comments</p>
+            <label class="form-label">
+              <p>Comments</p>
               <input
-                class=""
+                class="form-input"
                 type="text"
                 name="com"
                 placeholder="Text input"
@@ -518,7 +522,7 @@
               />
             </label>
           </fieldset>
-          <fieldset>
+          <fieldset class="modal-form-down">
             <label>
               <input class="" type="checkbox" name="policy" value="policy" />
               <p class="form-label">
