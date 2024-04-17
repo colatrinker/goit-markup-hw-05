@@ -582,7 +582,7 @@ img {
     height: 336px;
     padding: 24px;
     border: none;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .modal-form-down{
@@ -655,6 +655,7 @@ img {
     height: 24px;
     padding: 0 0 0 24px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    top: 24px;
 }
 
 
@@ -669,9 +670,11 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:hover{
+.form-input:hover,
+.form-input:focus{
     border-color: #4D5AE5;
 }
+
 
 .close-button-icon:hover,
 .close-button-icon:focus{
@@ -696,12 +699,10 @@ img {
 .comment-input{
     width: 100%;
     height: 120px;
-
-
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 117%;
-        letter-spacing: 0.04em;
-        color: #8e8f99;
-
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
+
