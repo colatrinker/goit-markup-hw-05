@@ -661,7 +661,7 @@ img {
 } 
 
 
-.form-input:focus>.form-icon{
+.form-input:focus+.form-icon{
     border-color: #4D5AE5;
 }
 
