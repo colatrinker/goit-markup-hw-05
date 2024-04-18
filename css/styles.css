@@ -800,3 +800,7 @@ img {
 .form-input:focus>.form-icon{
     fill: #4D5AE5;
 }
+
+.m-form{
+    margin-bottom: 16px;
+}
