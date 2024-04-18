@@ -680,7 +680,7 @@ img {
 }
 
 .form-input-box:hover,
-.comment-input:focus{
+.form-input-box:focus{
     border-color: #4D5AE5;
 }
 
@@ -795,4 +795,8 @@ img {
 
 .form-container-svg{
     margin-left: 16px
+}
+
+.form-input:focus>.form-icon{
+    fill: #4D5AE5;
 }
