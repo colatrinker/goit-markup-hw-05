@@ -797,7 +797,7 @@ img {
     margin-left: 16px
 }
 
-.form-input:focus>.form-icon{
+.form-input:focus+.form-icon{
     fill: #4D5AE5;
 }
 
