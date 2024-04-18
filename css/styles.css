@@ -679,7 +679,8 @@ img {
 
 }
 
-.form-input-box:hover{
+.form-input-box:hover,
+.comment-input:focus{
     border-color: #4D5AE5;
 }
 
