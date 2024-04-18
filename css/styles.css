@@ -722,7 +722,7 @@ img {
 }
 
 
-.visually-hidden:checked{
+.visually-hidden:checked>.check-text-icon{
     background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
