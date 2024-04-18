@@ -785,7 +785,7 @@ img {
     
 }
 
-.form-container-form>.form-button{
+.form-container-form>button{
     min-width: 165px;
     height: 40px;
     display: flex;
