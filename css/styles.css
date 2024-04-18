@@ -666,8 +666,8 @@ img {
 }
 
 
-.close-button-icon:hover,
-.close-button-icon:focus{
+.close-button-icon:hover+.modal,
+.close-button-icon:focus+.modal{
     color: #ffffff;
 }
 
