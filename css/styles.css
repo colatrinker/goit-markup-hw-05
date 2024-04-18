@@ -761,4 +761,10 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-form-down:checked+.check-text-icon{
+        background-color: #404bbf;
+            border: none;
+            fill: #F4F4FD;
+
+}
 
