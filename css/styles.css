@@ -667,11 +667,11 @@ img {
 
 
 .close-button:hover+.close-button-icon{
-    color: #fff;
+    color: #ffffff;
 
 }
 .close-button:focus+.close-button-icon{
-    color: #fff;
+    color: #ffffff;
 }
 
 .form-input-box{
