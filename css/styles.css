@@ -666,11 +666,11 @@ img {
 }
 
 
-.close-button:hover+.close-button-icon{
+.close-button:hover>.close-button-icon{
     color: #ffffff;
 
 }
-.close-button:focus+.close-button-icon{
+.close-button:focus>.close-button-icon{
     color: #ffffff;
 }
 
