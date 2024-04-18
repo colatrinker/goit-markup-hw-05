@@ -749,7 +749,7 @@ img {
     border-radius: 4px;
 }
 
-.input-form-down:checked>.check-text-icon{
+.input-form-down:checked + .form-label>.check-text-icon{
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
