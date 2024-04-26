@@ -825,7 +825,7 @@ img {
 }
 
 .check-text-icon{
-    margin: 8px;
+    margin: 0 8px 0 0;
 }
 
 .policy-link{
@@ -833,9 +833,4 @@ img {
 }
 .form-container-svg{
     color:#ffffff;
-}
-
-@media screen and (min-width:320px) {
-    
-    
 }
