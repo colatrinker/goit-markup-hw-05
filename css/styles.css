@@ -139,8 +139,7 @@ img {
     gap: 40px;
     margin-left: auto;
 }
-.header-cont-item {
-}
+
 
 .header-cont-link {
     font-weight: 400;
@@ -825,6 +824,13 @@ img {
     background-color: #404BBF;
 }
 
-.check-icon{
+.check-text-icon{
     margin: 8px;
+}
+
+.policy-link{
+    margin: 4px;
+}
+.form-container-svg{
+    color:#ffffff;
 }
